@@ -1,0 +1,145 @@
+//Body styles
+html,
+body {
+  height: 100%;
+}
+
+//Twitter blue
+.twitter-blue {
+  background-color: #1da1f2;
+}
+
+//Twitter icon color
+#twitter-blue {
+  color: #1da1f2;
+}
+
+//Button styles
+.rounded {
+  border-radius: 1em !important;
+}
+
+.hover-class:hover,
+.hover-class:focus,
+.hover-class:active {
+  background-color: #c3dff0;
+  border-radius: 15px;
+}
+
+.btn-twitter-filled {
+  color: #fff;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.btn-twitter-filled:hover,
+.btn-twitter-filled:focus,
+.btn-twitter-filled:active,
+.btn-twitter-filled.active,
+.open .dropdown-toggle.btn-twitter-filled {
+  color: #fff;
+  background-color: #0c99f0;
+  border-color: #1da1f2;
+}
+
+.btn-twitter-filled:active,
+.btn-twitter-filled.active,
+.open .dropdown-toggle.btn-twitter-filled {
+  background-image: none;
+}
+
+.btn-twitter-filled.disabled,
+.btn-twitter-filled[disabled],
+fieldset[disabled] .btn-twitter-filled,
+.btn-twitter-filled.disabled:hover,
+.btn-twitter-filled[disabled]:hover,
+fieldset[disabled] .btn-twitter-filled:hover,
+.btn-twitter-filled.disabled:focus,
+.btn-twitter-filled[disabled]:focus,
+fieldset[disabled] .btn-twitter-filled:focus,
+.btn-twitter-filled.disabled:active,
+.btn-twitter-filled[disabled]:active,
+fieldset[disabled] .btn-twitter-filled:active,
+.btn-twitter-filled.disabled.active,
+.btn-twitter-filled[disabled].active,
+fieldset[disabled] .btn-twitter-filled.active {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.btn-twitter-filled .badge {
+  color: #1da1f2;
+  background-color: #fff;
+}
+
+.btn-twitter-outline {
+  color: #1da1f2;
+  background-color: #fff;
+  border-color: #1da1f2;
+}
+
+.btn-twitter-outline:hover,
+.btn-twitter-outline:focus,
+.btn-twitter-outline:active,
+.btn-twitter-outline.active,
+.open .dropdown-toggle.btn-twitter-outline {
+  color: #1da1f2;
+  background-color: #c3dff0;
+  border-color: #1da1f2;
+}
+
+.btn-twitter-outline:active,
+.btn-twitter-outline.active,
+.open .dropdown-toggle.btn-twitter-outline {
+  background-image: none;
+}
+
+.btn-twitter-outline.disabled,
+.btn-twitter-outline[disabled],
+fieldset[disabled] .btn-twitter-outline,
+.btn-twitter-outline.disabled:hover,
+.btn-twitter-outline[disabled]:hover,
+fieldset[disabled] .btn-twitter-outline:hover,
+.btn-twitter-outline.disabled:focus,
+.btn-twitter-outline[disabled]:focus,
+fieldset[disabled] .btn-twitter-outline:focus,
+.btn-twitter-outline.disabled:active,
+.btn-twitter-outline[disabled]:active,
+fieldset[disabled] .btn-twitter-outline:active,
+.btn-twitter-outline.disabled.active,
+.btn-twitter-outline[disabled].active,
+fieldset[disabled] .btn-twitter-outline.active {
+  background-color: #fff;
+  border-color: #1da1f2;
+}
+
+.btn-twitter-outline .badge {
+  color: #fff;
+  background-color: #1da1f2;
+}
+
+//Custom collapsing navbar
+@media (min-width: 1400px) {
+  .navbar-expand-custom {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-expand-custom .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .navbar-expand-custom .navbar-collapse {
+    display: flex !important;
+  }
+
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
+}
