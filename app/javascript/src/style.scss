@@ -16,6 +16,13 @@ body {
 
 //Button styles
 //Button styles
+.hover-class:hover,
+.hover-class:focus,
+.hover-class:active {
+  background-color: #c3dff0;
+  border-radius: 15px;
+}
+
 .rounded {
   border-radius: 1em !important;
 }
